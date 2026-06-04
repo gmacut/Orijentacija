@@ -31,7 +31,7 @@ Ovaj repozitorij sadrži pripremljene materijale za vježbu na Kalniku i na Oki�
 
 ### Kalnik
 
-Poligon u obliku **osmice** s dvije petlje (desna i lijeva) i dva čvorišta. Sve grupe prolaze svim KT-ovima, ali različitim redoslijedom. Rute su organizirane u tri zrcalna para.
+Poligon u obliku **osmice** s dvije petlje (lijeva/zapadna i desna/istočna) i dva čvorišta. Sve grupe prolaze svim KT-ovima, ali različitim redoslijedom. Rute su organizirane u četiri zrcalna para.
 
 ![Kalnik — kontrolne točke](Kalnik_karta_sve_tocke.png)
 
@@ -54,7 +54,7 @@ Poligon u obliku **jedne petlje**. Svaka grupa obilazi 5 od 8 KT-ova; grupe se d
 | Dokument | Sadržaj |
 |----------|---------|
 | [Opći opis vježbe](vjezba_orijentacije.md) | Format vježbe, oprema tečajca, organizacija, principi dizajna ruta |
-| [Kalnik](vjezba_orijentacije_kalnik.md) | 6 grupa · 9 KT · osmica · do 30 polaznika |
+| [Kalnik](vjezba_orijentacije_kalnik.md) | 8 grupa · 9 KT + KT 2A · osmica · do 40 polaznika |
 | [Okić](vjezba_orijentacije_okic.md) | 4 grupe · 8 KT + DOM · jedna petlja · do 20 polaznika |
 
 ---
