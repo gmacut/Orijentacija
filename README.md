@@ -65,6 +65,14 @@ Poligon u obliku **jedne petlje**. Svaka grupa obilazi 5 od 8 KT-ova; grupe se d
 ├── vjezba_orijentacije.md        # Opći opis vježbe
 ├── vjezba_orijentacije_kalnik.md # Lokacija: Kalnik
 ├── vjezba_orijentacije_okic.md   # Lokacija: Okić
-├── Kalnik_karta_sve_tocke.png    # Karta kontrolnih točaka — Kalnik
-└── Okic_karta_sve_tocke.png      # Karta kontrolnih točaka — Okić
+├── Kalnik_karta_prazna.png       # Karta za tečajce — Kalnik
+├── Kalnik_karta_prazna.xcf       # Izvorna kompozicija (GIMP)
+├── Kalnik_karta_sve_tocke.png    # Karta za organizatora — Kalnik
+├── Kalnik_karta_sve_tocke.xcf    # Izvorna kompozicija (GIMP)
+├── Okic_karta_prazna.png         # Karta za tečajce — Okić
+├── Okic_karta_prazna.xcf         # Izvorna kompozicija (GIMP)
+├── Okic_karta_sve_tocke.png      # Karta za organizatora — Okić
+└── Okic_karta_sve_tocke.xcf      # Izvorna kompozicija (GIMP)
 ```
+
+`.xcf` datoteke su izvorne kompozicije karata i markera koje se mogu otvoriti i mijenjati u programu [GIMP](https://www.gimp.org/).
