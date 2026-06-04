@@ -61,7 +61,7 @@ Svaka grupa obilazi **5 od 8 KT-ova** (+ DOM = 6 točaka, 5 segmenata po grupi).
 
 ## Karta poligona
 
-![Okić — kontrolne točke](okic_kt.svg)
+![Okić — kontrolne točke](Okic_karta_sve_tocke.png)
 
 ---
 

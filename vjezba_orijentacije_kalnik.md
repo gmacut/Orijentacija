@@ -49,7 +49,7 @@ Poligon je **osmica** s dva čvorišta — **KT DJZA** (glavno, start/cilj) i **
 
 ## Karta poligona
 
-![Kalnik — kontrolne točke](kalnik_kt.svg)
+![Kalnik — kontrolne točke](Kalnik_karta_sve_tocke.png)
 
 ---
 
