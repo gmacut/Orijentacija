@@ -17,13 +17,13 @@ Ovaj repozitorij sadrži pripremljene materijale za vježbu na Kalniku i na Oki�
 | Dokument | Sadržaj |
 |----------|---------|
 | [Materijali za tečajce - Kalnik]() | Upute i kontrolni kartoni, po grupama |
-| [Karta za tečajce - Kalnik]() | Karta za tečajce, sa ucrtanom samo početnom točkom |
+| [Karta za tečajce - Kalnik](Kalnik_karta_prazna.png) | Karta za tečajce, sa ucrtanom samo početnom točkom. Širinu karte naštimajte na 32cm da bi bila u mjerilu 1:12500. |
 | [Materijali za organizatora - Kalnik]() | Upute i materijali za praćenje, po grupama |
-| [Karta za organizatora - Kalnik]() | Karta za organizatora, sa ucrtanom svim kontrolnim točkama |
+| [Karta za organizatora - Kalnik](Kalnik_karta_sve_tocke.png) | Karta za organizatora, sa ucrtanom svim kontrolnim točkama. Širinu karte naštimajte na 32cm da bi bila u mjerilu 1:12500. |
 | [Materijali za tečajce - Okić]() | Upute i kontrolni kartoni, po grupama |
-| [Karta za tečajce - Okić]() | Karta za tečajce, sa ucrtanom samo početnom točkom |
+| [Karta za tečajce - Okić](Okic_karta_prazna.png) | Karta za tečajce, sa ucrtanom samo početnom točkom. Širinu karte naštimajte na 32cm da bi bila u mjerilu 1:12500. |
 | [Materijali za organizatora - Okić]() | Upute i materijali za praćenje, po grupama |
-| [Karta za organizatora - Okić]() | Karta za organizatora, sa ucrtanom svim kontrolnim točkama |
+| [Karta za organizatora - Okić](Okic_karta_sve_tocke.png) | Karta za organizatora, sa ucrtanom svim kontrolnim točkama. Širinu karte naštimajte na 32cm da bi bila u mjerilu 1:12500. |
 
 ---
 
