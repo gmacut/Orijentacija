@@ -41,7 +41,7 @@ Poligon u obliku **osmice** s dvije petlje (lijeva/zapadna i desna/istočna) i d
 
 ### Okić
 
-Poligon u obliku **jedne petlje**. Svaka grupa obilazi 5 od 8 KT-ova; grupe se dijele na dvije varijante prema zapadnom (KT JZA) ili jugozapadnom (KT ZA) kraku.
+Poligon u obliku **jedne petlje**. Svaka grupa obilazi 5 od 8 KT-ova; grupe se dijele na temelju smjera obilaženja petlje, te toga koje kontrolne točke moraju obići. U ovoj se vježbi grupi može dogoditi da nađe kontrolnu točku koja "nije njihova".
 
 ![Okić — kontrolne točke](Okic_karta_sve_tocke.png)
 
