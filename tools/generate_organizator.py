@@ -242,6 +242,48 @@ def generate_doc(output_path, title, grupe, kt_data):
                 c.width = w
                 write_cell(c, txt, size=9, align=align)
 
+    # ── List za referencu bušenja ──────────────────────────────────────────────
+    add_page_break(doc)
+    add_para(doc, "Referenca bušenja — postavljanje poligona", bold=True, size=14,
+             align=WD_ALIGN_PARAGRAPH.CENTER, space_before=0, space_after=3)
+    add_para(doc, title, size=10, align=WD_ALIGN_PARAGRAPH.CENTER,
+             space_before=0, space_after=6)
+    add_para(doc, "Kod postavljanja poligona probušite ovaj papir bušačem svake kontrolne točke "
+             "kako biste imali referencu uzoraka bušenja po KT-u.",
+             size=9, space_before=0, space_after=8)
+
+    # Sve KT-ove osim DOM-a (DOM nema bušač)
+    punch_kts = [(kt, data) for kt, data in kt_data.items() if kt != "DOM"]
+    ref_col_widths = [Cm(2.5), Cm(2.0), Cm(5.5), Cm(4.0), Cm(4.0)]  # = 18 cm
+
+    ref_tbl = doc.add_table(rows=len(punch_kts) + 1, cols=5)
+    ref_tbl.style = "Table Grid"
+
+    ref_hdrs = ["Uzorak bušenja", "KT", "Opis", "Koordinate (DMS)", "Koordinate (dec.)"]
+    for k, (h, w) in enumerate(zip(ref_hdrs, ref_col_widths)):
+        c = ref_tbl.cell(0, k)
+        c.width = w
+        cell_shading(c, "BBBBBB")
+        write_cell(c, h, bold=True, size=9, align=WD_ALIGN_PARAGRAPH.CENTER)
+
+    ref_row_aligns = [
+        WD_ALIGN_PARAGRAPH.CENTER,
+        WD_ALIGN_PARAGRAPH.CENTER,
+        WD_ALIGN_PARAGRAPH.LEFT,
+        WD_ALIGN_PARAGRAPH.CENTER,
+        WD_ALIGN_PARAGRAPH.CENTER,
+    ]
+    for row_idx, (kt, (opis, dms, dec)) in enumerate(punch_kts):
+        row = ref_tbl.rows[row_idx + 1]
+        row.height = Cm(2.2)
+        row.height_rule = WD_ROW_HEIGHT_RULE.EXACTLY
+        for k, (txt, w, align) in enumerate(
+            zip(["", kt, opis, dms, dec], ref_col_widths, ref_row_aligns)
+        ):
+            c = ref_tbl.cell(row_idx + 1, k)
+            c.width = w
+            write_cell(c, txt, size=9, align=align)
+
     doc.save(output_path)
     print(f"Spremljeno: {output_path}")
 

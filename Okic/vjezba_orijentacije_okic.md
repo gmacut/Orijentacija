@@ -157,6 +157,10 @@ Svaka stranica (jedna po grupi) sadrži:
 2. Prostor za upis polaznika (5 praznih redaka)
 3. Tablica KT-ova koje grupa posjećuje (redom): naziv, puni opis, koordinate DMS, koordinate decimalno, stupac za upis vremena primitka SMS dojave
 
+Zadnja stranica (zajednička za sve grupe) — **referenca bušenja**:
+- Tablica svih KT-ova (bez DOM-a, koji nema bušač), s punim opisom i koordinatama
+- Prvi stupac je prazan i visok (≥ 2 cm) — organizator ga probušuje bušačem svake KT pri postavljanju poligona, kao referencu uzoraka bušenja
+
 ---
 
 ## Napomene specifične za Okić

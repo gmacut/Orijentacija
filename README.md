@@ -2,9 +2,11 @@
 
 Materijali za organizaciju vježbe orijentacije, tipično u sklopu općih planinarskih škola i sličnih tečajeva HPS-a.
 
-Tečajci na početku vježbe dobiju kartu područja, početnu točku i popis kontrolnih točaka s azimutima i udaljenostima točaka. Očekuje se da sa sobom imaju kompas, ravnalo i pribor za pisanje. U prvom dijelu vježbe na karti nalaze kontrolne točke koje kasnije moraju pronaći na terenu.
+Tečajci na početku vježbe dobiju kartu područja, početnu točku i popis kontrolnih točaka s azimutima i udaljenostima točaka. Očekuje se da sa sobom imaju kompas, ravnalo i pribor za pisanje.
 
-Nakon provjere voditelja vježbe, koja osigurava da su dobro izračunali gdje su točke, tečajci u grupama obilaze poligon, obilaze dodijeljene kontrolne točke i dokazuju prolazak bušenjem kontrolnog kartona. Uputno je olakšati sam obilazak kontrolnih točaka tako da se tečajcima omogući korištenje elektronskih pomagala za navigaciju, poput aplikacija na mobitelima. Sve su točke smještene tako da se do nijih može doći planinarskom stazom, cestom ili šumskim putem.
+U prvom dijelu vježbe na karti nalaze kontrolne točke koje kasnije moraju pronaći na terenu.
+
+Nakon provjere voditelja vježbe, koji osigurava da su dobro izračunali gdje su točke, tečajci u grupama obilaze poligon, obilaze dodijeljene kontrolne točke i dokazuju prolazak bušenjem kontrolnog kartona. Uputno je olakšati sam obilazak kontrolnih točaka tako da se tečajcima omogući korištenje elektronskih pomagala za navigaciju, poput aplikacija na mobitelima. Sve su točke smještene tako da se do nijih može doći planinarskom stazom, cestom ili šumskim putem.
 
 Svaka grupa dobiva drugačiji skup kontrolnih točaka i redoslijed obilaska, čime se izbjegava gužva na terenu.
 
@@ -39,11 +41,11 @@ Poligon u obliku **jedne petlje**. Svaka grupa obilazi 5 od 8 KT-ova; grupe se d
 
 | Dokument | Sadržaj |
 |----------|---------|
-| [Kontrolne kartice za tečajce - Kalnik](Kalnik/Kontrolne_kartice_za_tecajce_Kalnik.docx) | Bušilica i segmenti rute, po grupama (8 grupa) |
+| [Kontrolne kartice za tečajce - Kalnik](Kalnik/Kontrolne_kartice_za_tecajce_Kalnik.docx) | Kontrolni karton i segmenti rute, po grupama (8 grupa) |
 | [Karta za tečajce - Kalnik](Kalnik/Kalnik_karta_prazna.png) | Karta za tečajce, sa ucrtanom samo početnom točkom. Širinu karte naštimajte na 32cm da bi bila u mjerilu 1:12500. |
 | [Materijali za organizatora - Kalnik](Kalnik/Materijali_za_organizatora_Kalnik.docx) | Ruta, polaznici i KT-ovi s koordinatama, po grupama (8 grupa) |
 | [Karta za organizatora - Kalnik](Kalnik/Kalnik_karta_sve_tocke.png) | Karta za organizatora, sa ucrtanom svim kontrolnim točkama. Širinu karte naštimajte na 32cm da bi bila u mjerilu 1:12500. |
-| [Kontrolne kartice za tečajce - Okić](Okic/Kontrolne_kartice_za_tecajce_Okic.docx) | Bušilica i segmenti rute, po grupama (4 grupe) |
+| [Kontrolne kartice za tečajce - Okić](Okic/Kontrolne_kartice_za_tecajce_Okic.docx) | Kontrolni karton i segmenti rute, po grupama (4 grupe) |
 | [Karta za tečajce - Okić](Okic/Okic_karta_prazna.png) | Karta za tečajce, sa ucrtanom samo početnom točkom. Širinu karte naštimajte na 32cm da bi bila u mjerilu 1:12500. |
 | [Materijali za organizatora - Okić](Okic/Materijali_za_organizatora_Okic.docx) | Ruta, polaznici i KT-ovi s koordinatama, po grupama (4 grupe) |
 | [Karta za organizatora - Okić](Okic/Okic_karta_sve_tocke.png) | Karta za organizatora, sa ucrtanom svim kontrolnim točkama. Širinu karte naštimajte na 32cm da bi bila u mjerilu 1:12500. |

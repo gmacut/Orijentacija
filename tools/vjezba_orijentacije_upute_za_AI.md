@@ -123,3 +123,17 @@ Prikazuje sve KT-ove koje ta grupa posjećuje, redom posjeta, počevši s DOM-om
 | Koordinate (DMS) | WGS-84, stupnjevi/minute/sekunde |
 | Koordinate (dec.) | WGS-84, decimalni stupnjevi |
 | Dolazak (hh:mm) | Prazan prostor za upis vremena primitka SMS-a |
+
+#### 4. Referenca bušenja (zadnja stranica, zajednička)
+
+Jedna stranica na kraju dokumenta, iza svih grupnih stranica. Sadrži tablicu **svih KT-ova lokacije** (bez DOM-a, koji nema bušač):
+
+| Stupac | Sadržaj |
+|--------|---------|
+| Uzorak bušenja | Prazan prostor, visina ≥ 2 cm — organizator ga probušuje bušačem te KT |
+| KT | Naziv točke |
+| Opis | Puni opis |
+| Koordinate (DMS) | WGS-84 |
+| Koordinate (dec.) | WGS-84 |
+
+Svrha: organizator pri postavljanju poligona probušuje sve stupce prvog retka i dobiva fizičku referencu koji uzorak bušenja pripada kojoj KT-u.
