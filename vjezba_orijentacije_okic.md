@@ -1,5 +1,4 @@
 # Vježba orijentacije — Okić
-## OPŠ PD Vrbovec
 
 *Zajednički opis vježbe: vidi `vjezba_orijentacije.md`*
 

@@ -1,5 +1,4 @@
 # Vježba orijentacije — Kalnik
-## OPŠ PD Vrbovec
 
 *Zajednički opis vježbe: vidi `vjezba_orijentacije.md`*
 

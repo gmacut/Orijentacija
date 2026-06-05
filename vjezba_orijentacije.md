@@ -1,5 +1,4 @@
 # Vježba orijentacije
-## OPŠ PD Vrbovec
 
 ---
 
@@ -60,12 +59,70 @@ Rute su oblikovane tako da su **ukupne duljine što ujednačenije** između svih
 
 ## Dokumenti koji se generiraju
 
-### Kartica tečajca (`kartice_LOKACIJA.docx`)
-- Po jedna stranica po grupi
-- Sadržaj svake kartice:
-  - Zajednički početak (ako postoji): azimut, udaljenost
-  - Ruta grupe segment po segment: azimut, udaljenost, opis odredišne KT
-  - Popis KT-ova koje grupa skuplja
+Generiranje: `python tools/generate_kartice.py` (pokrenuti iz korijena repoa).
+Izlaz: `Kontrolne_kartice_za_tečajce_LOKACIJA.docx` po lokaciji.
+
+---
+
+### Kontrolne kartice za tečajce
+
+Jedna stranica po grupi. Redoslijed elemenata na svakoj stranici:
+
+#### 1. Tablica za bušenje — na samom vrhu stranice
+
+Tablica s **dva retka** i onoliko stupaca koliko KT-ova grupa obilazi (uključujući DOM kao prvi stupac, bez ponavljanja DOM-a na kraju):
+
+| Redak | Sadržaj | Visina | Širina po stupcu |
+|-------|---------|--------|-----------------|
+| 1 | Prazan prostor za bušenje kontrolnog kartona | min 3 cm | min 2,5 cm |
+| 2 | Naziv KT-a (DOM, KT x, KT y, …) u redoslijedu posjeta | auto | jednaka prvom |
+
+Stupci = KT-ovi koje ta grupa obilazi, redom posjeta, počevši s DOM-om.
+
+#### 2. Naslov i broj grupe — ispod tablice
+
+- Naziv vježbe i lokacije (npr. *Vježba orijentacije — Kalnik*)
+- Broj grupe (npr. *Grupa 1*) — istaknuto, veće slovo
+
+#### 3. Upute za tečajce
+
+Kratke upute u obliku nabrojene liste. Obavezno uključiti:
+
+- Staza kreće i završava na DOM-u (planinarskom domu).
+- Koristeći tablicu segmenata i kompas, ucrtaj sve KT-ove na karti — voditelj mora potvrditi prije polaska.
+- Na svakom KT-u dokaži prolazak bušenjem kartona bušačem koji se nalazi na toj točki.
+- Na terenu je dopušteno koristiti elektroničku navigaciju.
+- Kretati se smije samo po označenim stazama, cestama i putovima.
+
+#### 4. Tablica segmenata rute
+
+Jedna kartica po grupi sadrži sve segmente te grupe, redom:
+
+| Stupac | Sadržaj |
+|--------|---------|
+| # | Redni broj segmenta |
+| Od | Naziv polazne KT |
+| Azimut | Azimut u stupnjevima (°) |
+| Udaljenost | Udaljenost u metrima (m) |
+| Do | Naziv odredišne KT |
+| Opis odredišne KT | Kratki opis bez brojeva staza |
+
+**Opisi KT-ova u karticama moraju biti generički** — bez specifičnih naziva vrhova ili brojeva planinarskih staza. Primjeri prihvatljivih opisa: *Vrh*, *Raskrižje planinarskih staza*, *Raskrižje ceste i planinske staze*, *Raskrižje puta i ceste*, *Prelazak ceste preko potoka*, *Planinarski dom*.
+
+---
+
+#### Tehničke postavke
+
+| Postavka | Kalnik | Okić |
+|----------|--------|------|
+| Orijentacija | Landscape A4 | Portrait A4 |
+| Margine L/D | 1,5 cm | 1,5 cm |
+| Margine G/D | 1,2 cm | 1,2 cm |
+
+Landscape za Kalnik jer ima 9 stupaca u tablici za bušenje (ne stane u portrait).
+Portrait za Okić jer ima 5 stupaca po grupi.
+
+---
 
 ### List organizatora (`organizator_LOKACIJA.docx`)
 - Koordinate svih KT-ova (WGS84 DMS + decimalni format)
