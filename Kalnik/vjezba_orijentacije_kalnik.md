@@ -157,17 +157,20 @@ Azimuti i udaljenosti izračunati Haversineovom formulom.
 
 ### Sadržaj kartica tečajaca
 
-Svaka kartica sadrži:
-1. Zaglavlje: naziv vježbe, broj grupe
-2. Tablica segmenata rute: redni broj koraka, segment (od→do), azimut, udaljenost, opis odredišne KT
-3. Popis KT-ova koje grupa skuplja
+Svaka kartica (jedna po grupi) sadrži, redom od vrha:
+1. Tablica za bušenje — prazan prostor (min 3 cm visine) za svaku KT u redoslijedu posjeta, počevši s DOM-om
+2. Naziv vježbe i lokacije, broj grupe
+3. Upute za tečajce (uključujući napomenu o SMS dojavi koordinata)
+4. Tablica segmenata rute: redni broj, od → azimut / udaljenost → do (s opisom odredišne KT)
 
-### Sadržaj lista organizatora
+Opisi KT-ova u karticama su generički — bez brojeva staza ni specifičnih naziva vrhova.
 
-1. Koordinate svih KT-ova (WGS84 DMS + decimalni format)
-2. Pregled svih ruta s ukupnim duljinama
-3. Master tablica segmenata (azimut, udaljenost, koje grupe koriste)
-4. Tablica preklapanja ruta (gdje se grupe mogu sresti)
+### Sadržaj materijala za organizatora
+
+Svaka stranica (jedna po grupi) sadrži:
+1. Naziv vježbe i lokacije, broj grupe, puna ruta (DOM → KT x → … → DOM)
+2. Prostor za upis polaznika (5 praznih redaka)
+3. Tablica KT-ova koje grupa posjećuje (redom): naziv, puni opis, koordinate DMS, koordinate decimalno, stupac za upis vremena primitka SMS dojave
 
 ---
 
@@ -176,5 +179,5 @@ Svaka kartica sadrži:
 - Segment KT LZA↔KT LSIA je najduži (1150 m)
 - KT LJIA je vrh Vranilac — jedina KT koja nije raskrižje; KT LJA je lakša alternativa za manje iskusne polaznike
 - G5 i G6 koriste direktnu vezu KT DJZA↔KT LIA (564 m) — vrijedi posebno naglasiti tim grupama
-- G7 i G8 koriste direktnu vezu KT LIA↔KT DZA (479 m) — vrijedi posebno naglasiti tim grupama
+- G7 i G8 koriste direktnu vezu KT LIA↔KT DZA (525 m) — vrijedi posebno naglasiti tim grupama
 - KT LIA i KT LSIA su čvorišta osmice — više grupa se može sresti na tim točkama

@@ -45,6 +45,8 @@ Poligon se nalazi na **Okiću**, u okolici planinarskog doma Okić.
 
 ## Kontrolne točke
 
+Koordinatni sustav: WGS-84.
+
 | KT | Opis | WGS84 (DMS) | Decimalno |
 |----|------|-------------|-----------|
 | DOM | Cesta ispred planinarskog doma *(start i cilj)* | 45°44'56.13"N 15°42'11.66"E | 45.748925, 15.703239 |
@@ -137,6 +139,23 @@ Raspon duljina: 89 m (2850–2939 m).
 
 - [Kontrolne_kartice_za_tecajce_Okic.docx](Kontrolne_kartice_za_tecajce_Okic.docx) — kartice tečajaca (4 kartice, svaka na zasebnoj stranici)
 - [Materijali_za_organizatora_Okic.docx](Materijali_za_organizatora_Okic.docx) — materijali za organizatora
+
+### Sadržaj kartica tečajaca
+
+Svaka kartica (jedna po grupi) sadrži, redom od vrha:
+1. Tablica za bušenje — prazan prostor (min 3 cm visine) za svaku KT u redoslijedu posjeta, počevši s DOM-om
+2. Naziv vježbe i lokacije, broj grupe
+3. Upute za tečajce (uključujući napomenu o SMS dojavi koordinata)
+4. Tablica segmenata rute: redni broj, od → azimut / udaljenost → do (s opisom odredišne KT)
+
+Opisi KT-ova u karticama su generički — bez brojeva staza.
+
+### Sadržaj materijala za organizatora
+
+Svaka stranica (jedna po grupi) sadrži:
+1. Naziv vježbe i lokacije, broj grupe, puna ruta (DOM → KT x → … → DOM)
+2. Prostor za upis polaznika (5 praznih redaka)
+3. Tablica KT-ova koje grupa posjećuje (redom): naziv, puni opis, koordinate DMS, koordinate decimalno, stupac za upis vremena primitka SMS dojave
 
 ---
 
