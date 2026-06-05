@@ -295,13 +295,13 @@ def generate_doc(output_path, title, grupe, segmenti, kt_opis, landscape=True):
 
 def main():
     generate_doc(
-        "Kontrolne_kartice_za_tecajce_Kalnik.docx",
+        "Kalnik/Kontrolne_kartice_za_tecajce_Kalnik.docx",
         "Vježba orijentacije — Kalnik",
         KALNIK_GRUPE, KALNIK_SEGMENTI, KALNIK_KT_OPIS,
         landscape=True,
     )
     generate_doc(
-        "Kontrolne_kartice_za_tecajce_Okic.docx",
+        "Okic/Kontrolne_kartice_za_tecajce_Okic.docx",
         "Vježba orijentacije — Okić",
         OKIC_GRUPE, OKIC_SEGMENTI, OKIC_KT_OPIS,
         landscape=False,

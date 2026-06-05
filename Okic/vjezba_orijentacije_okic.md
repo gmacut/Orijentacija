@@ -1,6 +1,25 @@
 # Vježba orijentacije — Okić
 
-*Zajednički opis vježbe: vidi `vjezba_orijentacije.md`*
+---
+
+## Opis vježbe
+
+Vježba orijentacije provodi se na planinarskom poligonu s kontrolnim točkama (KT). Tečajci u grupama obilaze dodijeljene KT-ove koristeći kompas i kartu terena, a dolazak na svaku točku dokazuju bušenjem kontrolnog kartona bušačem postavljenim na toj točki.
+
+Na početku vježbe svaka grupa dobiva karticu s rutom. Tečajci na karti pronalaze sve KT-ove koje moraju posjetiti; tek nakon što voditelj potvrdi da su ispravno ucrtani, kreću na teren. Na terenu je dopušteno koristiti elektroničku navigaciju. Svo kretanje mora biti po označenim planinarskim stazama ili cestama.
+
+Na Okiću svaka grupa obilazi **5 od 8 KT-ova** — grupe se dijele na dvije varijante prema tome koji zapadni ili jugozapadni krak obilaze. Grupi se može dogoditi da na stazi naiđe na KT koji nije na njezinoj listi; u tom slučaju prolazi pokraj i nastavlja prema sljedećem na listi.
+
+Svaki puta kada se buši karton, **druga osoba iz grupe** SMS-om dojavuje voditelju vježbe trenutne GPS koordinate (dostupne u navigacijskoj aplikaciji).
+
+---
+
+## Oprema tečajca
+
+- Kompas
+- Karta terena
+- Kontrolni karton (za bušenje na KT-ovima)
+- Odgovarajuća planinska oprema za teren i vremenske uvjete
 
 ---
 
@@ -14,6 +33,13 @@ Poligon se nalazi na **Okiću**, u okolici planinarskog doma Okić.
 
 - **Preporučeni broj polaznika:** do 20 (3–5 po grupi)
 - **Broj grupa:** 4
+- **Start i cilj:** DOM (planinarski dom Okić) — sve grupe kreću i završavaju na istom mjestu
+
+### Uloge organizatora
+
+| Uloga | Zadatak |
+|-------|---------|
+| Voditelj vježbe | Koordinacija, sigurnost, evidentiranje odlaska i povratka, primanje GPS SMS dojava |
 
 ---
 
@@ -109,8 +135,8 @@ Raspon duljina: 89 m (2850–2939 m).
 
 ## Generirani dokumenti
 
-- `kartice_orijentacija_okic.docx` — kartice tečajaca (4 kartice, svaka na zasebnoj stranici)
-- `organizator_okic.docx` — list organizatora
+- [Kontrolne_kartice_za_tecajce_Okic.docx](Kontrolne_kartice_za_tecajce_Okic.docx) — kartice tečajaca (4 kartice, svaka na zasebnoj stranici)
+- [Materijali_za_organizatora_Okic.docx](Materijali_za_organizatora_Okic.docx) — materijali za organizatora
 
 ---
 

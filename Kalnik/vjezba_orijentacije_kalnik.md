@@ -1,6 +1,25 @@
 # Vježba orijentacije — Kalnik
 
-*Zajednički opis vježbe: vidi `vjezba_orijentacije.md`*
+---
+
+## Opis vježbe
+
+Vježba orijentacije provodi se na planinarskom poligonu s kontrolnim točkama (KT). Tečajci u grupama obilaze dodijeljene KT-ove koristeći kompas i kartu terena, a dolazak na svaku točku dokazuju bušenjem kontrolnog kartona bušačem postavljenim na toj točki.
+
+Na početku vježbe svaka grupa dobiva karticu s rutom. Tečajci na karti pronalaze sve KT-ove koje moraju posjetiti; tek nakon što voditelj potvrdi da su ispravno ucrtani, kreću na teren. Na terenu je dopušteno koristiti elektroničku navigaciju. Svo kretanje mora biti po označenim planinarskim stazama ili cestama.
+
+Na Kalniku svaka grupa obilazi **sve KT-ove**, ali različitim redoslijedom — time se izbjegava gužva na terenu i potiče samostalno snalaženje.
+
+Svaki puta kada se buši karton, **druga osoba iz grupe** SMS-om dojavuje voditelju vježbe trenutne GPS koordinate (dostupne u navigacijskoj aplikaciji).
+
+---
+
+## Oprema tečajca
+
+- Kompas
+- Karta terena
+- Kontrolni karton (za bušenje na KT-ovima)
+- Odgovarajuća planinska oprema za teren i vremenske uvjete
 
 ---
 
@@ -14,6 +33,13 @@ Poligon se nalazi na **Kalniku**, u okolici planinarskog doma Kalnik (Hrvatska).
 
 - **Preporučeni broj polaznika:** do 40 (3–5 po grupi)
 - **Broj grupa:** 8
+- **Start i cilj:** DOM (planinarski dom Kalnik) — sve grupe kreću i završavaju na istom mjestu
+
+### Uloge organizatora
+
+| Uloga | Zadatak |
+|-------|---------|
+| Voditelj vježbe | Koordinacija, sigurnost, evidentiranje odlaska i povratka, primanje GPS SMS dojava |
 
 ---
 
@@ -126,13 +152,13 @@ Azimuti i udaljenosti izračunati Haversineovom formulom.
 
 ## Generirani dokumenti
 
-- `kartice_orijentacija_kalnik.docx` — kartice tečajaca (8 kartica, svaka na zasebnoj stranici)
-- `organizator_kalnik.docx` — list organizatora
+- [Kontrolne_kartice_za_tecajce_Kalnik.docx](Kontrolne_kartice_za_tecajce_Kalnik.docx) — kartice tečajaca (8 kartica, svaka na zasebnoj stranici)
+- [Materijali_za_organizatora_Kalnik.docx](Materijali_za_organizatora_Kalnik.docx) — materijali za organizatora
 
 ### Sadržaj kartica tečajaca
 
 Svaka kartica sadrži:
-1. Zaglavlje: naziv vježbe, OPŠ PD Vrbovec, broj grupe
+1. Zaglavlje: naziv vježbe, broj grupe
 2. Tablica segmenata rute: redni broj koraka, segment (od→do), azimut, udaljenost, opis odredišne KT
 3. Popis KT-ova koje grupa skuplja
 

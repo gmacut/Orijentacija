@@ -250,12 +250,12 @@ def generate_doc(output_path, title, grupe, kt_data):
 
 def main():
     generate_doc(
-        "Materijali_za_organizatora_Kalnik.docx",
+        "Kalnik/Materijali_za_organizatora_Kalnik.docx",
         "Vježba orijentacije — Kalnik",
         KALNIK_GRUPE, KALNIK_KT_DATA,
     )
     generate_doc(
-        "Materijali_za_organizatora_Okic.docx",
+        "Okic/Materijali_za_organizatora_Okic.docx",
         "Vježba orijentacije — Okić",
         OKIC_GRUPE, OKIC_KT_DATA,
     )
