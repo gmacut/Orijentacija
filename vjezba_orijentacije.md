@@ -91,6 +91,7 @@ Kratke upute u obliku nabrojene liste. Obavezno uključiti:
 - Staza kreće i završava na DOM-u (planinarskom domu).
 - Koristeći tablicu segmenata i kompas, ucrtaj sve KT-ove na karti — voditelj mora potvrditi prije polaska.
 - Na svakom KT-u dokaži prolazak bušenjem kartona bušačem koji se nalazi na toj točki.
+- Svaki puta kada se buši karton, **druga osoba iz grupe** SMS-om dojavuje voditelju vježbe trenutne GPS koordinate (dostupne u navigacijskoj aplikaciji).
 - Na terenu je dopušteno koristiti elektroničku navigaciju.
 - Kretati se smije samo po označenim stazama, cestama i putovima.
 
@@ -124,12 +125,34 @@ Portrait za Okić jer ima 5 stupaca po grupi.
 
 ---
 
-### List organizatora (`organizator_LOKACIJA.docx`)
-- Koordinate svih KT-ova (WGS84 DMS + decimalni format)
-- Koordinate se bilježe u **dva formata**: stupnjevi/minute/sekunde (DMS) i decimalni stupnjevi
-- Pregled svih ruta s ukupnim duljinama
-- Master tablica svih segmenata (azimut, udaljenost, koje grupe koriste)
-- Tablica preklapanja ruta (gdje se grupe mogu sresti na istim segmentima)
+### Materijali za organizatora (`Materijali_za_organizatora_LOKACIJA.docx`)
+
+Generiranje: `python tools/generate_organizator.py` (pokrenuti iz korijena repoa).
+
+Jedna stranica po grupi. Redoslijed elemenata na svakoj stranici:
+
+#### 1. Zaglavlje
+- Naziv vježbe i lokacije
+- Broj grupe (istaknuto)
+- Ruta: puni slijed točaka s DOM-om na početku i kraju (npr. `DOM → KT x → KT y → … → DOM`)
+
+#### 2. Prostor za polaznike
+
+Oznaka "Polaznici:" i pet praznih redaka (linije za pisanje) — organizator na terenu upisuje ime i prezime svakog polaznika.
+
+#### 3. Tablica kontrolnih točaka
+
+Prikazuje samo KT-ove koje ta grupa posjećuje, redom posjeta, počevši s DOM-om. Za svaku točku:
+
+| Stupac | Sadržaj |
+|--------|---------|
+| KT | Naziv točke |
+| Opis | Puni opis lokacije (sa svim detaljima: brojevima staza, nazivom vrha, itd.) |
+| Koordinate (DMS) | WGS-84, format stupnjevi/minute/sekunde |
+| Koordinate (dec.) | WGS-84, decimalni stupnjevi |
+| Dolazak (hh:mm) | Prazan prostor — organizator upisuje vrijeme kada primi SMS od grupe |
+
+Opisi u ovoj tablici su **puni** (s brojevima staza i specifičnim imenima) jer su namijenjeni organizatoru, ne tečajcima.
 
 ---
 

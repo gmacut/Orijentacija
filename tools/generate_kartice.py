@@ -116,6 +116,8 @@ UPUTE = [
     "Koristeći tablicu segmenata i kompas, ucrtaj sve kontrolne točke na karti. "
     "Voditelj vježbe mora potvrditi položaj svih točaka prije polaska na teren.",
     "Na svakom KT-u dokaži prolazak bušenjem kartona bušačem koji se nalazi na toj točki.",
+    "Svaki puta kada se buši karton, druga osoba iz grupe SMS-om dojavuje voditelju vježbe "
+    "trenutne GPS koordinate. Koordinate su dostupne u navigacijskoj aplikaciji na mobitelu.",
     "Na terenu je dopušteno koristiti elektroničku navigaciju (mobitel, GPS aplikacija).",
     "Kretati se smije samo po označenim planinarskim stazama, cestama i šumskim putovima.",
 ]
@@ -293,13 +295,13 @@ def generate_doc(output_path, title, grupe, segmenti, kt_opis, landscape=True):
 
 def main():
     generate_doc(
-        "Kontrolne_kartice_za_tečajce_Kalnik.docx",
+        "Kontrolne_kartice_za_tecajce_Kalnik.docx",
         "Vježba orijentacije — Kalnik",
         KALNIK_GRUPE, KALNIK_SEGMENTI, KALNIK_KT_OPIS,
         landscape=True,
     )
     generate_doc(
-        "Kontrolne_kartice_za_tečajce_Okić.docx",
+        "Kontrolne_kartice_za_tecajce_Okic.docx",
         "Vježba orijentacije — Okić",
         OKIC_GRUPE, OKIC_SEGMENTI, OKIC_KT_OPIS,
         landscape=False,
