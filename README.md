@@ -12,20 +12,7 @@ Ovaj repozitorij sadrži pripremljene materijale za vježbu na Kalniku i na Oki�
 
 ---
 
-## Dokumenti za korištenje u vježbama
 
-| Dokument | Sadržaj |
-|----------|---------|
-| [Kontrolne kartice za tečajce - Kalnik](Kalnik/Kontrolne_kartice_za_tecajce_Kalnik.docx) | Bušilica i segmenti rute, po grupama (8 grupa) |
-| [Karta za tečajce - Kalnik](Kalnik/Kalnik_karta_prazna.png) | Karta za tečajce, sa ucrtanom samo početnom točkom. Širinu karte naštimajte na 32cm da bi bila u mjerilu 1:12500. |
-| [Materijali za organizatora - Kalnik](Kalnik/Materijali_za_organizatora_Kalnik.docx) | Ruta, polaznici i KT-ovi s koordinatama, po grupama (8 grupa) |
-| [Karta za organizatora - Kalnik](Kalnik/Kalnik_karta_sve_tocke.png) | Karta za organizatora, sa ucrtanom svim kontrolnim točkama. Širinu karte naštimajte na 32cm da bi bila u mjerilu 1:12500. |
-| [Kontrolne kartice za tečajce - Okić](Okic/Kontrolne_kartice_za_tecajce_Okic.docx) | Bušilica i segmenti rute, po grupama (4 grupe) |
-| [Karta za tečajce - Okić](Okic/Okic_karta_prazna.png) | Karta za tečajce, sa ucrtanom samo početnom točkom. Širinu karte naštimajte na 32cm da bi bila u mjerilu 1:12500. |
-| [Materijali za organizatora - Okić](Okic/Materijali_za_organizatora_Okic.docx) | Ruta, polaznici i KT-ovi s koordinatama, po grupama (4 grupe) |
-| [Karta za organizatora - Okić](Okic/Okic_karta_sve_tocke.png) | Karta za organizatora, sa ucrtanom svim kontrolnim točkama. Širinu karte naštimajte na 32cm da bi bila u mjerilu 1:12500. |
-
----
 
 ## Lokacije
 
@@ -48,7 +35,20 @@ Poligon u obliku **jedne petlje**. Svaka grupa obilazi 5 od 8 KT-ova; grupe se d
 → [Detalji za Okić](Okic/vjezba_orijentacije_okic.md)
 
 ---
+## Dokumenti za korištenje u vježbama
 
+| Dokument | Sadržaj |
+|----------|---------|
+| [Kontrolne kartice za tečajce - Kalnik](Kalnik/Kontrolne_kartice_za_tecajce_Kalnik.docx) | Bušilica i segmenti rute, po grupama (8 grupa) |
+| [Karta za tečajce - Kalnik](Kalnik/Kalnik_karta_prazna.png) | Karta za tečajce, sa ucrtanom samo početnom točkom. Širinu karte naštimajte na 32cm da bi bila u mjerilu 1:12500. |
+| [Materijali za organizatora - Kalnik](Kalnik/Materijali_za_organizatora_Kalnik.docx) | Ruta, polaznici i KT-ovi s koordinatama, po grupama (8 grupa) |
+| [Karta za organizatora - Kalnik](Kalnik/Kalnik_karta_sve_tocke.png) | Karta za organizatora, sa ucrtanom svim kontrolnim točkama. Širinu karte naštimajte na 32cm da bi bila u mjerilu 1:12500. |
+| [Kontrolne kartice za tečajce - Okić](Okic/Kontrolne_kartice_za_tecajce_Okic.docx) | Bušilica i segmenti rute, po grupama (4 grupe) |
+| [Karta za tečajce - Okić](Okic/Okic_karta_prazna.png) | Karta za tečajce, sa ucrtanom samo početnom točkom. Širinu karte naštimajte na 32cm da bi bila u mjerilu 1:12500. |
+| [Materijali za organizatora - Okić](Okic/Materijali_za_organizatora_Okic.docx) | Ruta, polaznici i KT-ovi s koordinatama, po grupama (4 grupe) |
+| [Karta za organizatora - Okić](Okic/Okic_karta_sve_tocke.png) | Karta za organizatora, sa ucrtanom svim kontrolnim točkama. Širinu karte naštimajte na 32cm da bi bila u mjerilu 1:12500. |
+
+---
 ## Dokumenti za generiranje novih varijanti vježbi
 
 | Dokument | Sadržaj |
