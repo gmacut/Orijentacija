@@ -31,8 +31,8 @@ Poligon se nalazi na **Okiću**, u okolici planinarskog doma Okić.
 
 ## Organizacija
 
-- **Preporučeni broj polaznika:** do 20 (3–5 po grupi)
-- **Broj grupa:** 4
+- **Preporučeni broj polaznika:** do 40 (3–5 po grupi)
+- **Broj grupa:** 8 (4 osnovne + 4 obrnute varijante)
 - **Start i cilj:** DOM (planinarski dom Okić) — sve grupe kreću i završavaju na istom mjestu
 
 ### Uloge organizatora
@@ -67,22 +67,23 @@ Poligon je **jedna petlja** — sve grupe prolaze istim područjem, ali različi
 
 Svaka grupa obilazi **5 od 8 KT-ova** (+ DOM = 6 točaka, 5 segmenata po grupi).
 
-- **G1 i G2** obilaze KT JZA (zapadna varijanta), ne KT ZA
-- **G3 i G4** obilaze KT ZA (jugozapadna varijanta), ne KT JZA
+- **G1, G2, G5, G6** obilaze KT JZA (zapadna varijanta), ne KT ZA
+- **G3, G4, G7, G8** obilaze KT ZA (jugozapadna varijanta), ne KT JZA
 - KT JZA i KT ZA nikada nisu u istoj grupi
+- **G5–G8** su obrnute varijante G1–G4: isti KT-ovi, suprotan smjer obilaska
 
 **Pokrivenost KT-ova:**
 
-| KT | G1 | G2 | G3 | G4 |
-|----|:--:|:--:|:--:|:--:|
-| KT JA | ✓ | | | ✓ |
-| KT JZA | ✓ | ✓ | | |
-| KT ZA | | | ✓ | ✓ |
-| KT SZA | | ✓ | ✓ | |
-| KT SA | ✓ | ✓ | | |
-| KT SIA | | | ✓ | ✓ |
-| KT SIB | ✓ | ✓ | | |
-| KT JIA | | | ✓ | ✓ |
+| KT | G1 | G2 | G3 | G4 | G5 | G6 | G7 | G8 |
+|----|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+| KT JA | ✓ | | | ✓ | ✓ | | | ✓ |
+| KT JZA | ✓ | ✓ | | | ✓ | ✓ | | |
+| KT ZA | | | ✓ | ✓ | | | ✓ | ✓ |
+| KT SZA | | ✓ | ✓ | | | ✓ | ✓ | |
+| KT SA | ✓ | ✓ | | | ✓ | ✓ | | |
+| KT SIA | | | ✓ | ✓ | | | ✓ | ✓ |
+| KT SIB | ✓ | ✓ | | | ✓ | ✓ | | |
+| KT JIA | | | ✓ | ✓ | | | ✓ | ✓ |
 
 ---
 
@@ -102,14 +103,18 @@ Nema zajedničkog polazišnog segmenta — sve grupe kreću direktno iz **DOM**-
 
 Sve rute kreću i završavaju na **DOM**.
 
-| Grupa | Varijanta | Ruta | Ukupno |
-|-------|-----------|------|:------:|
-| G1 | KT JZA | DOM → KT JA → KT JZA → KT SA → KT SIB → DOM | 2933 m |
-| G2 | KT JZA | DOM → KT JZA → KT SZA → KT SA → KT SIB → DOM | 2939 m |
-| G3 | KT ZA | DOM → KT ZA → KT SZA → KT SIA → KT JIA → DOM | 2850 m |
-| G4 | KT ZA | DOM → KT JA → KT ZA → KT SIA → KT JIA → DOM | 2852 m |
+| Grupa | Varijanta | Smjer | Ruta | Ukupno |
+|-------|-----------|-------|------|:------:|
+| G1 | KT JZA | → | DOM → KT JA → KT JZA → KT SA → KT SIB → DOM | 2933 m |
+| G2 | KT JZA | → | DOM → KT JZA → KT SZA → KT SA → KT SIB → DOM | 2939 m |
+| G3 | KT ZA | → | DOM → KT ZA → KT SZA → KT SIA → KT JIA → DOM | 2850 m |
+| G4 | KT ZA | → | DOM → KT JA → KT ZA → KT SIA → KT JIA → DOM | 2852 m |
+| G5 | KT JZA | ← | DOM → KT SIB → KT SA → KT JZA → KT JA → DOM | 2933 m |
+| G6 | KT JZA | ← | DOM → KT SIB → KT SA → KT SZA → KT JZA → DOM | 2939 m |
+| G7 | KT ZA | ← | DOM → KT JIA → KT SIA → KT SZA → KT ZA → DOM | 2850 m |
+| G8 | KT ZA | ← | DOM → KT JIA → KT SIA → KT ZA → KT JA → DOM | 2852 m |
 
-Raspon duljina: 89 m (2850–2939 m).
+Raspon duljina: 89 m (2850–2939 m). G5–G8 imaju iste duljine kao G1–G4 jer su obrnute rute.
 
 ---
 
@@ -120,18 +125,33 @@ Raspon duljina: 89 m (2850–2939 m).
 | DOM → KT JA | 308° | 236 m | G1, G4 |
 | DOM → KT JZA | 310° | 611 m | G2 |
 | DOM → KT ZA | 301° | 989 m | G3 |
+| DOM → KT SIB | 6° | 981 m | G5, G6 |
+| DOM → KT JIA | 358° | 500 m | G7, G8 |
 | KT JA → KT JZA | 312° | 375 m | G1 |
 | KT JA → KT ZA | 299° | 755 m | G4 |
+| KT JA → DOM | 128° | 236 m | G5, G8 |
 | KT JZA → KT SZA | 7° | 412 m | G2 |
 | KT JZA → KT SA | 1° | 754 m | G1 |
+| KT JZA → KT JA | 132° | 375 m | G5 |
+| KT JZA → DOM | 130° | 611 m | G6 |
 | KT ZA → KT SZA | 56° | 519 m | G3 |
 | KT ZA → KT SIA | 58° | 874 m | G4 |
+| KT ZA → KT JA | 119° | 755 m | G8 |
+| KT ZA → DOM | 121° | 989 m | G7 |
 | KT SZA → KT SA | 353° | 348 m | G2 |
 | KT SZA → KT SIA | 60° | 355 m | G3 |
+| KT SZA → KT JZA | 187° | 412 m | G6 |
+| KT SZA → KT ZA | 236° | 519 m | G7 |
 | KT SA → KT SIB | 107° | 587 m | G1, G2 |
+| KT SA → KT JZA | 181° | 754 m | G5 |
+| KT SA → KT SZA | 173° | 348 m | G6 |
 | KT SIA → KT JIA | 170° | 487 m | G3, G4 |
+| KT SIA → KT SZA | 240° | 355 m | G7 |
+| KT SIA → KT ZA | 238° | 874 m | G8 |
 | KT SIB → DOM | 186° | 981 m | G1, G2 |
+| KT SIB → KT SA | 287° | 587 m | G5, G6 |
 | KT JIA → DOM | 178° | 500 m | G3, G4 |
+| KT JIA → KT SIA | 350° | 487 m | G7, G8 |
 
 ---
 

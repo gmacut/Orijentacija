@@ -45,9 +45,9 @@ Poligon u obliku **jedne petlje**. Svaka grupa obilazi 5 od 8 KT-ova; grupe se d
 | [Karta za tečajce - Kalnik](Kalnik/Kalnik_karta_prazna.png) | Karta za tečajce, sa ucrtanom samo početnom točkom. Širinu karte naštimajte na 32cm da bi bila u mjerilu 1:12500. |
 | [Materijali za organizatora - Kalnik](Kalnik/Materijali_za_organizatora_Kalnik.docx) | Ruta, polaznici i KT-ovi s koordinatama, po grupama (8 grupa) |
 | [Karta za organizatora - Kalnik](Kalnik/Kalnik_karta_sve_tocke.png) | Karta za organizatora, sa ucrtanom svim kontrolnim točkama. Širinu karte naštimajte na 32cm da bi bila u mjerilu 1:12500. |
-| [Kontrolne kartice za tečajce - Okić](Okic/Kontrolne_kartice_za_tecajce_Okic.docx) | Kontrolni karton i segmenti rute, po grupama (4 grupe) |
+| [Kontrolne kartice za tečajce - Okić](Okic/Kontrolne_kartice_za_tecajce_Okic.docx) | Kontrolni karton i segmenti rute, po grupama (8 grupa) |
 | [Karta za tečajce - Okić](Okic/Okic_karta_prazna.png) | Karta za tečajce, sa ucrtanom samo početnom točkom. Širinu karte naštimajte na 32cm da bi bila u mjerilu 1:12500. |
-| [Materijali za organizatora - Okić](Okic/Materijali_za_organizatora_Okic.docx) | Ruta, polaznici i KT-ovi s koordinatama, po grupama (4 grupe) |
+| [Materijali za organizatora - Okić](Okic/Materijali_za_organizatora_Okic.docx) | Ruta, polaznici i KT-ovi s koordinatama, po grupama (8 grupa) |
 | [Karta za organizatora - Okić](Okic/Okic_karta_sve_tocke.png) | Karta za organizatora, sa ucrtanom svim kontrolnim točkama. Širinu karte naštimajte na 32cm da bi bila u mjerilu 1:12500. |
 
 ---
@@ -56,7 +56,7 @@ Poligon u obliku **jedne petlje**. Svaka grupa obilazi 5 od 8 KT-ova; grupe se d
 | Dokument | Sadržaj |
 |----------|---------|
 | [Kalnik](Kalnik/vjezba_orijentacije_kalnik.md) | 8 grupa · 9 KT · osmica · do 40 polaznika |
-| [Okić](Okic/vjezba_orijentacije_okic.md) | 4 grupe · 8 KT + DOM · jedna petlja · do 20 polaznika |
+| [Okić](Okic/vjezba_orijentacije_okic.md) | 8 grupa · 8 KT + DOM · jedna petlja · do 40 polaznika |
 | [Upute za AI](tools/vjezba_orijentacije_upute_za_AI.md) | Principi dizajna ruta i tehničke specifikacije za generiranje novih varijanti |
 
 ---

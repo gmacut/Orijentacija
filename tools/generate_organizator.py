@@ -73,10 +73,14 @@ OKIC_KT_DATA = {
 }
 
 OKIC_GRUPE = {
-    "G1": ["DOM", "KT JA", "KT JZA", "KT SA", "KT SIB", "DOM"],
-    "G2": ["DOM", "KT JZA", "KT SZA", "KT SA", "KT SIB", "DOM"],
-    "G3": ["DOM", "KT ZA", "KT SZA", "KT SIA", "KT JIA", "DOM"],
-    "G4": ["DOM", "KT JA", "KT ZA", "KT SIA", "KT JIA", "DOM"],
+    "G1": ["DOM", "KT JA",  "KT JZA", "KT SA",  "KT SIB", "DOM"],
+    "G2": ["DOM", "KT JZA", "KT SZA", "KT SA",  "KT SIB", "DOM"],
+    "G3": ["DOM", "KT ZA",  "KT SZA", "KT SIA", "KT JIA", "DOM"],
+    "G4": ["DOM", "KT JA",  "KT ZA",  "KT SIA", "KT JIA", "DOM"],
+    "G5": ["DOM", "KT SIB", "KT SA",  "KT JZA", "KT JA",  "DOM"],
+    "G6": ["DOM", "KT SIB", "KT SA",  "KT SZA", "KT JZA", "DOM"],
+    "G7": ["DOM", "KT JIA", "KT SIA", "KT SZA", "KT ZA",  "DOM"],
+    "G8": ["DOM", "KT JIA", "KT SIA", "KT ZA",  "KT JA",  "DOM"],
 }
 
 # ── Pomoćne funkcije ─────────────────────────────────────────────────────────
